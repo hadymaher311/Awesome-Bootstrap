@@ -1,0 +1,43 @@
+$orange: 	#ef6d00;
+$gradient-peach: linear-gradient(40deg,#ffd86f,#fc6262);
+$gradient-blue: linear-gradient(40deg,#45cafc,#303f9f);
+$gradient-purple: linear-gradient(40deg,#ff6ec4,#7873f5);
+$gradient-aqua: linear-gradient(40deg,#2096ff,#05ffa3);
+$gradient-argon: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+$gradient-colt:	linear-gradient(to right, #070000, #4c0001, #070000);
+$gradient-flickr: linear-gradient(to right, #ff0084, #33001b);
+
+
+$indigo:    $indigo !default;
+$purple:    $purple !default;
+$pink:      $pink !default;
+$orange:    $orange !default;
+$teal:      $teal !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "orange":     $orange,
+  "teal":       $teal,
+), $theme-colors);
+
+$gradient-peach: $gradient-peach !default;
+$gradient-blue: $gradient-blue !default;
+$gradient-purple: $gradient-purple !default;
+$gradient-aqua: $gradient-aqua !default;
+$gradient-argon: $gradient-argon !default;
+$gradient-colt: $gradient-colt !default;
+$gradient-flickr: $gradient-flickr !default;
+
+$theme-colors-gradient: () !default;
+$theme-colors-gradient: map-merge((
+  "gradient-peach": $gradient-peach,
+  "gradient-blue": $gradient-blue,
+  "gradient-purple": $gradient-purple,
+  "gradient-aqua": $gradient-aqua,
+  "gradient-argon": $gradient-argon,
+  "gradient-colt": $gradient-colt,
+  "gradient-flickr": $gradient-flickr,
+), $theme-colors-gradient);
