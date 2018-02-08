@@ -41,3 +41,8 @@ $theme-colors-gradient: map-merge((
   "gradient-colt": $gradient-colt,
   "gradient-flickr": $gradient-flickr,
 ), $theme-colors-gradient);
+
+$btn-box-shadow:	4px 4px 4px #ccc !important;
+$btn-box-shadow-active:	2px 2px 2px #ccc !important;
+$enable-shadows: 	true !important;
+
