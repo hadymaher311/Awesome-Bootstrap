@@ -208,6 +208,15 @@
   }
 }
 
+@each $color, $value in $social-colors {
+  .abbtn-#{$color} {
+	@include button-variant($value, $value);
+  	&.abbtn-rounded {
+  		@include button-size($btn-padding-y, $btn-padding-x, 1rem, $btn-line-height, $btn-padding-x * 2);
+	}
+  }
+}
+
 @each $background, $value in $theme-colors-gradient {
   .abbtn-#{$background} {
     @include btn-gradient($value);
@@ -223,6 +232,12 @@
     &.abbtn-rounded {
   		@include button-size($btn-padding-y, $btn-padding-x, 1rem, $btn-line-height, $btn-padding-x * 2);
   	}
+  }
+}
+
+@each $color, $value in $social-colors {
+  .abbtn-outline-#{$color} {
+    @include button-outline-variant($value);
   }
 }
 
@@ -263,7 +278,7 @@
 	}
 }
 
-@each $color, $value in $theme-colors {
+@each $color, $value in $social-colors {
   .abbtn-icon-#{$color} {
     @include button-icon-variant($value);
   }

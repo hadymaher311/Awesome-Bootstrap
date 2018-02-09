@@ -22,6 +22,7 @@ Have a bug or a feature request? search for existing and closed issues. If your 
 ## Creators
 
 **Hady Maher**
+**Hanin Hisham**
 
 ## Copyright and license
 

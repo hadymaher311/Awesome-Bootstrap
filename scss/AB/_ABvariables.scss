@@ -33,9 +33,13 @@ $theme-colors: map-merge((
   	"pink":       	$pink,
   	"orange":     	$orange,
   	"teal":       	$teal,
+), $theme-colors);
+
+$social-colors: () !default;
+$social-colors: map-merge((
   	"facebook": 	$facebook,
 	"twitter": 		$twitter,
-	"google-plus": 		$google,
+	"google-plus": 	$google,
 	"linked-in": 	$linked-in,
 	"instagram": 	$instagram,
 	"pinterest": 	$pinterest,
@@ -44,7 +48,7 @@ $theme-colors: map-merge((
 	"slack": 		$slack,
 	"github": 		$github,
 	"dribbble": 	$dribbble
-), $theme-colors);
+), $social-colors);
 
 $gradient-peach: $gradient-peach !default;
 $gradient-blue: $gradient-blue !default;
@@ -73,3 +77,6 @@ $btn-icon-size: 2.5rem;
 $btn-icon-size-lg: 3.5rem;
 $btn-icon-size-sm: 2rem;
 
+$alert-bg-level:                    0 !default;
+$alert-border-level:                0 !default;
+$alert-color-level:                 0 !default;
