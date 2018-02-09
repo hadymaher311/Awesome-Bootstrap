@@ -14,13 +14,36 @@ $pink:      $pink !default;
 $orange:    $orange !default;
 $teal:      $teal !default;
 
+$facebook: #3B5998 !default;
+$twitter: #55ACEE !default;
+$google: #DD4B39 !default;
+$linked-in: #0082CA !default;
+$instagram: #A639AC !default;
+$pinterest: #C61118 !default;
+$youtube: #FF0000 !default;
+$stackoverflow: #F37500 !default;
+$slack: #56B68B !default;
+$github: #222222 !default;
+$dribbble: #DF3E7B !default;
+
 $theme-colors: () !default;
 $theme-colors: map-merge((
-  "indigo":     $indigo,
-  "purple":     $purple,
-  "pink":       $pink,
-  "orange":     $orange,
-  "teal":       $teal,
+  	"indigo":     	$indigo,
+  	"purple":     	$purple,
+  	"pink":       	$pink,
+  	"orange":     	$orange,
+  	"teal":       	$teal,
+  	"facebook": 	$facebook,
+	"twitter": 		$twitter,
+	"google-plus": 		$google,
+	"linked-in": 	$linked-in,
+	"instagram": 	$instagram,
+	"pinterest": 	$pinterest,
+	"youtube": 		$youtube,
+	"stack-overflow":$stackoverflow,
+	"slack": 		$slack,
+	"github": 		$github,
+	"dribbble": 	$dribbble
 ), $theme-colors);
 
 $gradient-peach: $gradient-peach !default;
@@ -45,4 +68,8 @@ $theme-colors-gradient: map-merge((
 $btn-box-shadow:	4px 4px 4px #ccc !important;
 $btn-box-shadow-active:	2px 2px 2px #ccc !important;
 $enable-shadows: 	true !important;
+
+$btn-icon-size: 2.5rem;
+$btn-icon-size-lg: 3.5rem;
+$btn-icon-size-sm: 2rem;
 
